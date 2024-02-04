@@ -1,0 +1,12 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "Recipe Manager Frontend",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"remoteUser": "node",
+	"runArgs": [
+		"--name",
+		"RecipeManagerFrontend"
+	]
+}
